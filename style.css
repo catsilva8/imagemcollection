@@ -14,12 +14,12 @@
 ----------------------------------------------------------------*/
 
 ::selection {
-    background: #FD685B;
+    background: #FC220F;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #FD685B;
+    background: #FC220F;
     color: #fff;
 }
 
@@ -545,8 +545,9 @@ nav ul.sub-menu > li:last-child > a {
     position: relative;
     width: 100%;
     height: 33.333em;
-    background-color: #363842;
+    background-color: #000;
 }
+
 
 #intro {
     position: fixed;
@@ -583,11 +584,13 @@ nav ul.sub-menu > li:last-child > a {
 .caption-mockup,
 .photocaption {
     z-index: 2;
+	
 }
 
 .caption,
 .photocaption {
     position: absolute;
+	
 }
 
 #intro .intro-mockup-wrapper,
@@ -634,6 +637,7 @@ nav ul.sub-menu > li:last-child > a {
 .photocaption,
 .photocaption h4 {
     color: #fff;
+	font-family: "Bernardo Moda Contrast";
 }
 
 .caption.dark,
@@ -771,7 +775,7 @@ nav ul.sub-menu > li:last-child > a {
 }
 
 .single #post-nav a:hover {
-    color: #FD685B;
+    color: #FC220F;
 }
 
 .single #post-nav .label {
@@ -1517,8 +1521,8 @@ ul.meta-social li a.dribbble-share:hover {
 
 .meta-social ul li a.facebook-share:hover,
 ul.meta-social li a.facebook-share:hover {
-    border-color: #3b5998;
-    background-color: #3b5998;
+    border-color: #FC220F;
+    background-color: #FC220F;
 }
 
 .meta-social ul li a.flickr-share:hover,
@@ -2463,7 +2467,7 @@ input.button:active {
 
 .button.red,
 input.button.red {
-    background-color: rgba(253,104,91,1);
+    background-color: rgba(252,34,15,1);
 }
 
 .button.red:hover,
@@ -2760,7 +2764,7 @@ input.button.transparent.dark-grey:hover {
 .red,
 i.icon.red,
 i.fa.red {
-    color: #fd685c;
+    color: #FC220F;
 }
 
 .orange,
@@ -2842,8 +2846,8 @@ i.fa.dark-grey {
 footer {
     position: relative;
     z-index: 10;
-    background-color: #363842;
-    color: #545766;
+    background-color: #000;
+    color: #fff;
 }
 
 footer h1,
